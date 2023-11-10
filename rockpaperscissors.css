@@ -1,0 +1,45 @@
+body{ 
+    background-image: url(assests/Osrs_Kraken.webp); /* image is from OSRS Wiki Kraken/Strategies. -This image is taken from oldschool.runescape.com, and its copyright is held by Jagex Ltd. */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: green;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding: 30px;
+}
+
+h1{
+    margin-top: 40px;
+    color: lightgreen; 
+}
+
+span{
+    font-weight: bold;
+    font-size: large;
+    color: lightgreen;
+}
+
+img{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.radiobuttons{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.buttonstyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

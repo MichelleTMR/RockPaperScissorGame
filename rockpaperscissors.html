@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="rockpaperscissors.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1>Can you defeat the <a href="https://oldschool.runescape.wiki/w/Kraken#Kraken">Kraken</a> at Rock Paper Scissors?</h1>
+        <div class="flex-container">
+            <div class="radiobuttons">
+                <a href="https://oldschool.runescape.wiki/w/Pet_rock">
+                <img src="assests/Petrock.png"></a>
+                <label for="petrockimg"><span>Pet rock</span></label>
+                <input  type="radio" id="petrockimg" name="rpsradiobuttons" value="1">
+            </div>
+            <div class="radiobuttons">
+                <a href="https://oldschool.runescape.wiki/w/Newspaper">
+                <img src="assests/Newspaper.png"></a>
+                <label for="newspaperimg"><span>Varrock's Newspaper</span></label>
+                <input type="radio" id="newspaperimg" name="rpsradiobuttons" value="2">
+                <!-- <button  onclick="rockPaperScissor()" type="button">Enter</button> -->
+            </div>
+            <div class="radiobuttons">
+                <a href="https://oldschool.runescape.wiki/w/Secateurs">
+                <img src="assests/Secateurs.png"></a>
+                <label for="scissorsimg"><span>Secateurs</span></label>
+                <input type="radio" id="scissorsimg" name="rpsradiobuttons" value="3">
+            </div>
+        </div>
+        <div class="buttonstyle">
+            <button  onclick="rockPaperScissor()" type="button">Enter</button>
+        </div>
+    </div>
+    <script src="rockpaperscissors.js"></script>
+</body>
+</html>
